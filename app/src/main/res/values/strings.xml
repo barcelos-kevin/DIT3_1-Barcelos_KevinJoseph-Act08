@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LocationTrackingApp</string>
+
+    <!-- Button Labels -->
+    <string name="start_tracking">Start Tracking</string>
+    <string name="stop_tracking">Stop Tracking</string>
+
+    <!-- Location Info -->
+    <string name="current_location">Current Location</string>
+    <string name="latitude">Latitude: --</string>
+    <string name="longitude">Longitude: --</string>
+    <string name="accuracy">Accuracy: --</string>
+    <string name="speed">Speed: --</string>
+
+    <!-- FAB Content Description -->
+    <string name="center_map">Center Map</string>
+
+    <!-- Toast Messages -->
+    <string name="permission_denied">Location permission denied</string>
+    <string name="permission_granted">Location permission granted</string>
+    <string name="tracking_started">Location tracking started</string>
+    <string name="tracking_stopped">Location tracking stopped</string>
+    <string name="no_location">Location not available yet</string>
+</resources>

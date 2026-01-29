@@ -1,0 +1,55 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+obj/
+gen/
+out/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Gradle wrapper
+gradlew
+gradlew.bat
+gradle/
+
+# Build artifacts
+*.apk
+*.aar
+*.jks
+
+# Google Play Services
+google-services.json
+
+# API Keys and secrets
+**/secrets/
+**/*.key
+**/*.p12
+**/keystore.properties
+
+# IDE specific files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
+
