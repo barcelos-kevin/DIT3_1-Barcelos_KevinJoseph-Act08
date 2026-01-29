@@ -11,7 +11,32 @@ The Simple Location Tracker App is an Android mobile application that displays t
 - Detailed location information (latitude and longitude)
 
 
-## 🗺 How GPS Location is Obtained
+## � Permissions Used
+
+The app requires the following Android permissions declared in `AndroidManifest.xml`:
+
+1. **`ACCESS_FINE_LOCATION`** *(Required)*
+   - Enables precise GPS location tracking
+   - Used to obtain the user's exact coordinates (latitude/longitude)
+   - Requested at runtime (dangerous permission)
+
+2. **`ACCESS_COARSE_LOCATION`** *(Optional fallback)*
+   - Provides approximate location using WiFi and cellular towers
+   - Used as a fallback when GPS is unavailable
+   - Less accurate than fine location (~100m accuracy)
+
+3. **`INTERNET`** *(Required)*
+   - Allows the app to download map tiles from Google Maps
+   - Required for displaying the interactive map interface
+   - Normal permission (automatically granted)
+
+**Permission Flow:**
+- App checks for location permissions on startup
+- User is prompted to grant location access if not already granted
+- Without location permission, the app cannot track or display user position
+
+
+## �🗺 How GPS Location is Obtained
 
 ### Location Flow:
 
